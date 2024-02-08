@@ -1,9 +1,16 @@
+import React from 'react';
 import './App.css';
+import Header from './Header';
+import Gallery from './Gallery';
 
 function App() {
+
+
+
   return (
-    <div className="App">
-      <h1 className='text-5xl text-blue-600'>Photo Gallery</h1>
+    <div className='bg-gray-700'>
+      <Header />
+      <Gallery />
     </div>
   );
 }
